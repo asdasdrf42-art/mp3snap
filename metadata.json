@@ -1,0 +1,49 @@
+{
+  "name": "mp3snap",
+  "displayName": "MP3Snap",
+  "tagline": "Snap. Convert. Done.",
+  "description": "Fast, free YouTube to MP3 & MP4 converter. No signup, no limits, no nonsense.",
+  "domain": "mp3snap.click",
+  "version": "1.0.0",
+  "contact": "support@mp3snap.click",
+  "social": {
+    "twitter": "@mp3snap"
+  },
+  "seo": {
+    "defaultTitle": "MP3Snap – YouTube to MP3 Converter",
+    "titleTemplate": "%s | MP3Snap",
+    "defaultDescription": "Convert any YouTube video to MP3 or MP4 in seconds. Free, fast, and no installation required.",
+    "keywords": [
+      "youtube to mp3",
+      "youtube to mp4",
+      "youtube converter",
+      "mp3 downloader",
+      "video to mp3",
+      "youtube shorts download"
+    ],
+    "ogImage": "/og-image.png"
+  },
+  "legal": {
+    "privacyLastUpdated": "2026-01-01",
+    "termsLastUpdated": "2026-01-01",
+    "dmcaContact": "dmca@mp3snap.click"
+  },
+  "limits": {
+    "maxConcurrentJobs": 3,
+    "maxFileSizeMB": 500,
+    "tempFileTTLSeconds": 3600,
+    "rateLimitWindowMinutes": 10,
+    "rateLimitMaxRequests": 5
+  },
+  "permissions": {
+    "allowedDomains": [
+      "youtube.com",
+      "youtu.be",
+      "www.youtube.com",
+      "m.youtube.com",
+      "music.youtube.com"
+    ],
+    "blockedRegions": [],
+    "requireUserConsent": false
+  }
+}
